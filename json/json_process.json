@@ -1,0 +1,92 @@
+{"teammembers":[
+	{
+		"name":"David Degea",
+		"title":"Chief Executive Officer",
+		"department":"Administration",
+		"bio":"David typically acts as the head of a company and reports to the board of directors. He is responsible for creating and completing business strategies, introducing policies and making sure the organization reaches its goals. As an executive officer of the company, David reports the status of the business to the board of directors, motivates employees, and drives change within the organization. As a manager,  presides over the organization's day-to-day operations. David is the person who is ultimately accountable for a company's business decisions, including those in operations, marketing, business development, finance, human resources, etc..."
+	},
+	{
+		"name":"Van Bisakka",
+		"title":"Chief Operating Officer",
+		"department":"Administration",
+		"bio":"Bisakka oversees the manufacturing, production, sales and personnel matters of an organization. He is a member of the executive team in organizations including government entities, charities, educational organizations and for-profit businesses. Bisakka reports to the chief executive officer and might also be called the director of operations, operations director or chief operating executive."
+	},
+	{
+		"name":"Hary Maguire",
+		"title":"Chief Financial Officer",
+		"department":"Administration",
+		"bio":"Maguire is responsible for overseeing and directing the annual and long-term financial goals of an organization. He performs broad business and accounting tasks and is responsible for accuracy, timeliness and regulatory compliance of financial reporting. Maguire supervise financial personnel, analyze financial statements and develop strategies for an organization’s finances."
+	},
+	{
+		"name":"Rafael Varane",
+		"title":"Chief Marketing Officer",
+		"department":"Administration",
+		"bio":"Varane leads the marketing team in developing, implementing and delivering marketing campaigns to prospective customers as well as customer outreach via social media. This C-level corporate executive’s primary objective is to increase sales and promote brand recognition through comprehensive planning of targeted and direct advertising. As the highest-level marketing position in the company, the CMO oversees the marketing and advertising activities across all company product lines and markets."
+	},
+	{
+		"name":"Luke Shaw",
+		"title":"Chief Technology Officer",
+		"department":"Administration",
+		"bio":"Shaw is a senior executive who controls the technological requirements of an organization. Shaw is the highest-level information technology (IT) professional in a company. He ensure that the software, hardware and technology processes are effective in supporting the members and clients of the business.He is expected to remain well-versed in all aspects of technology."
+	},
+	{
+		"name":"Marcus Rashford",
+		"title":"Executive Assistant",
+		"department":"Sales",
+		"bio":"Rashford is an administrative professional who supports organization’s executive or another high-level administrator. He perform various office management duties, provide clerical support and often handle tasks that have a direct effect on the success of the business, such as training staff."
+	},
+	{
+		"name":"Paul Pogba",
+		"title":"Marketing Manager",
+		"department":"Sales",
+		"bio":"Pogba is responsible for developing, implementing and overseeing long-term digital marketing campaigns as well as short-term advertising techniques. This role requires being adept at enhancing brand awareness, driving traffic to the company’s website and generating sales leads. He oversees the marketing team and provides support in several areas"
+	},
+	{
+		"name":"Scot Mactominay",
+		"title":"Product Manager",
+		"department":"IT",
+		"bio":"Mactominay is in charge of the process of developing a product from conception through execution, including brainstorming new ideas, marketing to target markets and distribution. Depending on the size of the organization, the product manager report to the marketing director, vice president of marketing, chief marketing officer or, if the business is smaller, the chief executive officer."
+	},
+	{
+		"name":"Bruno Fernandes",
+		"title":"Program Manager",
+		"department":"IT",
+		"bio":"Bruno uses communication and project management skills to coordinate a project. He identify client needs and organize them into an actionable plan while also identifying budget requirements "
+	},
+	{
+		"name":"Marcus Rashford",
+		"title":"Project Manager",
+		"department":"Operation",
+		"bio":"Matthew plans, directs, or coordinates the operations of public or private sector organizations, overseeing multiple departments or locations. Duties and responsibilities include formulating policies, managing daily operations, and planning the use of materials and human resources, but are too diverse and general in nature to be classified in any one functional area of management or administration, such as personnel, purchasing, or administrative services. Usually manage through subordinate supervisors. "
+	},
+	{
+		"name":"Christiano Ronaldo",
+		"title":"Finance Manager",
+		"department":"Finance",
+		"bio":"Ronaldo oversees the financial health of an organization. This involves managing the back-office operations of an organization’s internal budget and finances, as well as oversight of investment opportunities and financial strategy in for-profit organizations. He supervise a team of accounting and payroll professionals."
+	},
+	{
+		"name":"Fred Rodrigeus",
+		"title":"HR Manager",
+		"department":"Human Resources",
+		"bio":"Fred is responsible for recruiting, interviewing and hiring new staff as well as serving as the link between the company’s employees and management. This role is responsible for developing and implementing plans and procedures, like personnel policies and overseeing the work of the HR department. He has several responsibilities related to coordinating the administrative functions of an organization"
+	},
+	{
+		"name":"Victor Lindelof",
+		"title":"Accountant",
+		"department":"Finance",
+		"bio":"Victor ensure companies and organizations are operating efficiently by accessing financial records and analyzing data, finance reports, budgets, tax returns and accounting records. He work alongside Senior Accountants and other professionals within the accounting or finance department."
+	},
+	{
+		"name":"Edinson Cavani",
+		"title":"Sales Representative",
+		"department":"Sales",
+		"bio":" Cavani uses strong customer service and communication skills to sell goods or services. He maintain a strong understanding of company’s products to highlight features and increase sales."
+	},
+	{
+		"name":"Dean Henderson",
+		"title":"Business Analyst",
+		"department":"IT",
+		"bio":"Dean identifies the needs of a business and then connects them with information technology resources to increase sales, strengthen processes and improve efficiency. He act as mediators and facilitators for all business systems."
+	}
+]}
