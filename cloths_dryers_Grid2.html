@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/report.css">
+<title>The Dryer Company</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+nav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<script src="http://12.42.204.30:7005/jTable/jquery.jtable.js"></script>
+<script src="http://12.42.204.30:7005/jTable/helpers.js"></script>
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/red/jtable.css" rel="stylesheet">
+
+<!--
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/gray/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/green/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/orange/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/lightcolor/blue/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/metro/lightgray/jtable.css" rel="stylesheet">
+<link href="http://12.42.204.30:7005/jTable/themes/metro/red/jtable.css" rel="stylesheet">
+-->
+
+                                                <!-- Do not change the code above -->
+
+<link href="css/grid.css" rel="stylesheet">     <!-- Modify myStyles.css to add additional styles or add your own stylesheet-->
+
+<title>Cloth Dryers</title>                             <!-- Modify title for your application -->
+
+<script>
+	$(document).ready(function() {
+		$('#container1').jtable({
+			title : 'CUSTOMER ORDERS',              <!-- Change title for the output -->
+			paging : true,                      <!-- "true" allows paging through the grid -->
+			pageSize : 15,                      <!-- Specify page size -->
+			sorting : true,                     <!-- "true" allows sorting by columns --> 
+			defaultSorting  : 'customer_name ASC',
+			actions : {
+				listAction : 'genJson2.aspx?jtView=clothdryersV2'  <!-- Change "carsV1" to your view name -->
+			},
+			fields : {                          <!-- Modify the grid components -->
+				customer_name : {
+					title : 'Customer Name',
+					width : '15%',
+					list : true
+				},
+				order_date : {
+					title : 'Order Date',
+					width : '10%',
+					list : true
+				},
+				order_number : {
+					title : 'Order Number',
+					width : '10%',
+					list : true
+				},
+				product_id : {
+					title : 'Product Id',
+					width : '10%',
+					list : true
+				},
+				product_name : {
+					title : 'Product Name',
+					width : '15%',
+					list : true
+				},
+				quantity_ordered : {
+					title : 'Quantity Ordered',
+					width : '10%',
+					list : true
+				},
+				price : {
+					title : 'Price',
+					width : '10%',
+					list : true
+				},
+				extended_price : {
+					title : 'Extended Price',
+					width : '10%',
+					list : true
+				}
+			}
+		});                                     <!-- Do not change the code below -->
+		$('#container1').jtable('load');
+	});
+</script>
+</head>
+
+<body>
+  <div id="container1">
+	<!-- Use the header area for the website name or logo -->
+	<header>		
+		<img src="images/TheDryerCompany_LOGO.JPG" alt="The Dryer Company Logo">
+		<p>The Dryer Company</p>	
+	</header>
+	
+	<br><br>
+	<nav>
+  	<a href="index.html">Home</a>
+   	<div class="dropdown">
+    		<button class="dropbtn">Reports 
+      		<i class="fa fa-caret-down"></i>
+    		</button>
+    	<div class="dropdown-content">
+      		<a href="cloths_dryers_Grid1.html">Products Listing</a>
+      		<a href="cloths_dryers_Grid2.html">Customer Orders</a>
+		<a href="cloths_dryers_Grid3.html">Customer Order Totals</a>
+		<a href="cloths_dryers_Grid4.html">Inventory</a>
+    	</div>
+  	</div> 
+	</nav>
+	<br><br>
+	</div>
+</body>
+<br><br>
+	<footer>
+		<h style="font-size: 100%">&copy; Copyright 2021. All Rights Reserved.</h><br>
+		<a href="mailto:thedrco01@gmail.com">Request information<br></a>
+		AGN &nbsp; &nbsp; 00
+	</footer>
+</html>

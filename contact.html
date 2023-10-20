@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- AGN -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/contact.css">
+	<title>The Dryer Company</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/additional-methods.min.js"></script>	
+	<script src="js/contact_validation.js"></script>
+</head>
+
+<body>
+
+	<div id="container">
+	<!-- Use the header area for the website name or logo -->
+	<header>		
+		<img src="images/TheDryerCompany_LOGO.JPG" alt="The Dryer Company Logo">
+		<p>The Dryer Company</p>	
+	</header>
+	
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="team.html">Our team</a></li>
+			<li><a href="specials.html">Specials</a></li>
+			<li><a href="training.html">Training</a></li>
+			<li><a href="media.html">Media </a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="reports_home.html">Reports</a></li>
+			<li><a href="styleguide.html">Style Guide</a></li>
+			<li><a href="flicker_search.html">Search</a></li>
+			<li><a href="json_process.html">Employee Details</a></li>
+
+
+		</ul>
+	</nav>
+
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+	
+		<h5>Thank you for your interest in The DR*CO services. Please provide the following information about your needs to help us serve you better. This information will enable us to route your request to the appropriate person. You should receive a response within 48 hours.</h5>
+		<div style="text-align:center">
+		<form action="contact_response.html" method="get" name="contact_form" id="contact_form">
+			<label for="fName">First Name:</label>
+			<input type="text" name="fName" id="fName" size="50" autofocus><br>
+
+			<label for="lName">Last Name:</label>
+			<input type="text" name="lName" id="lName" size="50"><br>
+			<label for="email">Email Address:</label>
+			<input type="email" name="email" id="email" size="50" required><br>
+			<label for="phone">Phone Number:</label>
+			<input type="tel" name="phone" id="phone" placeholder="123-456-7890" size="50" required><br>
+			
+			<label for="reference">Province:</label>
+			<select name="Province" id="reference">
+				<option value="Alberta">Alberta</option>
+				<option value="British Columbia">British Columbia</option>
+				<option value="Manitoba">Manitoba</option>
+				<option value="New Brunswick">New Brunswick</option>
+				<option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+				<option value="Northwest Territories">Northwest Territories</option>
+				<option value="Nova Scotia">Nova Scotia</option>
+				<option value="Nunavut">Nunavut</option>
+				<option value="Ontario">Ontario</option>
+				<option value="Prince Edward Island">Prince Edward Island</option>
+				<option value="Quebec">Quebec</option>
+				<option value="Saskatchewan">Saskatchewan</option>
+				<option value="Yukon">Yukon</option>
+
+			</select><br>
+
+			<label for="availabledate">Available Date:</label>
+			<input type="date" name="date" id="date"><br>
+
+					
+			<p8 style="font: 1rem 'Fira Sans', sans-serif;">Preferred Response Type:</p8>
+			<div>
+  				<input style=" margin: .4rem;" type="radio" id="mobile" name="mobile" value="mobile" checked>
+  				<label style="font: 1rem 'Fira Sans', sans-serif;" for="mobile">Mobile</label>
+			</div>
+
+			<div>
+  				<input style=" margin: .4rem;" type="radio" id="email" name="email" value="email">
+  				<label style="font: 1rem 'Fira Sans', sans-serif;" for="email">Email</label>
+			</div><br>
+
+			<p8 style="font: 1rem 'Fira Sans', sans-serif;">Select Inquiry Type:</p8><br>
+				<input style=" margin: .4rem;" type="checkbox" id="mobile" name="scales" type="checkbox" id="reference1" name="reference1" value="Services">	
+				<label style="font: 1rem 'Fira Sans', sans-serif;" for="reference1"> Request for Services</label><br>
+				<input style=" margin: .4rem;" type="checkbox" id="mobile" name="scales" type="checkbox" id="reference2" name="reference2" value="Alliances">
+				<label style="font: 1rem 'Fira Sans', sans-serif;" for="reference2"> Alliances</label><br>
+				<input style=" margin: .4rem;" type="checkbox" id="mobile" name="scales" type="checkbox" id="reference3" name="reference3" value="Career ">
+				<label style="font: 1rem 'Fira Sans', sans-serif;" for="reference3"> Career Seekers</label><br>
+				<input style=" margin: .4rem;" type="checkbox" id="mobile" name="scales" type="checkbox" id="reference4" name="reference4" value="Investor ">
+				<label style="font: 1rem 'Fira Sans', sans-serif;" for="reference4"> Investor Relations</label><br>
+				<input style=" margin: .4rem;" type="checkbox" id="mobile" name="scales" type="checkbox" id="reference5" name="reference5" value="Analyst ">
+				<label style="font: 1rem 'Fira Sans', sans-serif;" for="reference5"> Analyst Relations</label><br>
+				<input style=" margin: .4rem;" type="checkbox" id="mobile" name="scales" type="checkbox" id="reference6" name="reference6" value="Media ">
+				<label style="font: 1rem 'Fira Sans', sans-serif;" for="reference6"> Media and Public Relations</label><br>
+				<input style=" margin: .4rem;" type="checkbox" id="mobile" name="scales" type="checkbox" id="reference7" name="reference7" value="Other" checked>
+				<label style="font: 1rem 'Fira Sans', sans-serif;" for="reference7"> Other</label><br>
+
+			<label for="comments">Comments:</label>
+			<textarea id="comments" name="comments" rows="3" cols="100">
+			</textarea><br>
+			<input type="submit" id="submit" value="Submit"><br>
+			<input type="reset" value="Reset"><br>
+		</form>	
+		</div>
+	</main>
+
+	<footer>
+		<h style="font-size: 100%">&copy; Copyright 2021. All Rights Reserved.</h><br>
+		<a href="mailto:thedrco01@gmail.com">Request information<br></a>
+		AGN &nbsp; &nbsp; 00
+	</footer>
+
+	</div>
+	
+</body>
+</html>
